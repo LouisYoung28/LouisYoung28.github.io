@@ -10,6 +10,9 @@ function go(){
 function getScores(numExams){
     var scores = [];
     for( i=0; i<numExams; i++)
+        while (isNaN(i)){
+
+        }
         scores[i] = prompt("Please enter the score for exam " + (i+1) + " below: ");
     return scores;
 }
