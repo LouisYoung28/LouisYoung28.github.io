@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> My Home </title>
+        <title> Louis Young Home </title>
         <link rel="stylesheet" href="webpages/main.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="https://louisyoung28.github.io/"> Home </a></li>
-                    <li><a href="webpages/mediagallery.html"> Media Gallery </a></li>
-                    <li><a href="webpages/contacts.html"> Contacts </a></li>
-                </ul>
-                <h1> My Home Page</h1>
-            </nav>
-        </header>
-        <section>
-            <div> a </div>
-            <div> b </div>
-            <div> c </div>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1>Welcome!</h1>
         </section>
-        <section>lower-section</section>
-        <footer>footer</footer>
-
-
+        <section id="skills">
+            <h1>About Me</h1>
+            <img class="img-round-border" src="images/professionalme.png">
+            <p class="lead">Data Scientist | Senior Computer Science Student | Intel Scholar</p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <p class="lead">A preview of my personal projects. Coming soon...</p>
+        </section>
+        <section id="contact">
+            <h1>Contact Me!</h1>
+            <p class="lead"> (email works best)</p>
+            <div> <a href="https://www.linkedin.com/in/louis-young-ii-9a3054120/"><img class="socialmedialogo" src="images/linkedin.png"></a></div>
+            <div><img class="socialmedialogo" src="images/twitterlogo.png"></div>
+        </section>
+    </div>
+    <script src="webpages/main.js"></script>
     </body>
 </html>
